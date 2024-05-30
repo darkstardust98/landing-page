@@ -1,26 +1,54 @@
 * {
     background-color: #1F2937;
-    margin: 0;
+    margin: 0px;
     font-family: roboto;
     background-color:
 }
 
 header {
     color: white;
-    margin-top: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 80px;
     display: flex;
     background-color: #1F2937;
-    gap: 2rem;
+    gap: 1rem;
+}
+
+.group {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    
 }
 
 .header_logo {
-    align-items: flex-start;
-    margin: auto;
+    justify-content: flex-start;
+    margin-right: auto;
+    margin margin-left: 50px;
 }
 
 .link_one,
 .link_two,
 .link_three {
     align-items: flex-end;
-    margin-right: 30px;
+    margin-right: 50px;
+}
+
+.hero {
+    display: flex;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+
+h1 {
+    color: white;
+}
+
+span {
+    color: lightgray;
 }
