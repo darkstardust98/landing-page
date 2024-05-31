@@ -98,6 +98,7 @@ h2 {
     align-items: center;
     background-color: white;
     gap: 1rem;
+    margin-bottom: 50px;
 }
 
 .cube {
@@ -135,4 +136,28 @@ h2 {
     background-color: white;
     color: black;
     text-align: center;
+}
+
+div.quote {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-color: #E5E7EB;
+    width: 60%;
+    margin: 0;
+    border: 100px solid #E5E7EB;
+    border-left: 240px solid #E5E7EB;
+    border-right: 240px solid #E5E7EB;
+}
+
+.quote_text {
+    background-color: #E5E7EB;
+    text-align: left;
+    color: black;
+    
+}
+
+.quote_author {
+    background-color: #E5E7EB;
 }
