@@ -28,8 +28,8 @@ header {
     justify-content: flex-start;
     margin-right: auto;
     margin margin-left: 50px;
-    
-    
+    background-color: #1F2937;
+    font-weight: bold;
 }
 
 .link_one,
@@ -87,6 +87,9 @@ div.cubes {
 h2 {
     background-color: white;
     font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -100px;
 }
 
 .array {
@@ -94,4 +97,42 @@ h2 {
     flex-direction: row;
     align-items: center;
     background-color: white;
+    gap: 1rem;
+}
+
+.cube {
+    height: 150px;
+    width: auto;
+}
+
+.cube_one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cube_two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.cube_three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.cube_four {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.description {
+    background-color: white;
+    color: black;
+    text-align: center;
 }
