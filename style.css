@@ -145,7 +145,7 @@ div.quote {
     justify-content: right;
     background-color: #E5E7EB;
     width: 60%;
-    margin: 0;
+    margin: auto;
     border: 100px solid #E5E7EB;
     border-left: 240px solid #E5E7EB;
     border-right: 240px solid #E5E7EB;
@@ -155,7 +155,6 @@ div.quote {
     background-color: #E5E7EB;
     text-align: left;
     color: black;
-    
 }
 
 .quote_author {
@@ -187,4 +186,15 @@ div.quote {
     color: white;
     background-color: #3882F6;
     border: 2px solid white;
+}
+
+.copyright {
+    color: white;
+    background-color: #1F2937;
+    border-left: 200px solid #1F2937;
+    border-right: 200px solid #1F2937;
+    border-top: 20px solid #1F2937;
+    border-bottom: 20px solid #1F2937;
+    text-align: center;
+    margin: auto;
 }
