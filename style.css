@@ -161,3 +161,30 @@ div.quote {
 .quote_author {
     background-color: #E5E7EB;
 }
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    margin: 80px;
+    padding: 20px;
+    border: 10px solid #3882F6;
+    border-radius: 5px;
+    gap: 3rem;
+
+}
+
+.call {
+    background-color: #3882F6;
+    color:  white;
+}
+
+.strong_call {
+    background-color: #3882F6 !important;
+}
+
+.second_button {
+    color: white;
+    background-color: #3882F6;
+    border: 2px solid white;
+}
